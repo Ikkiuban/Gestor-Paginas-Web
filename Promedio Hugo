@@ -1,0 +1,14 @@
+promedio_Hugo = int(input())
+
+promedio_Paco = (promedio_Hugo * 2) + 4
+promedio_Luis = (promedio_Hugo + promedio_Paco) / 2
+
+print (promedio_Hugo, promedio_Paco, int(promedio_Luis))
+
+if promedio_Luis >= 0 and promedio_Luis <= 20:
+  print('Uno')
+elif promedio_Luis >= 21 and promedio_Luis <= 40:
+  print('Dos')
+elif promedio_Luis >= 41 and promedio_Luis <= 70:
+  print('Tres')
+else: print('Cuatro')
