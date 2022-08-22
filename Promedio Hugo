@@ -12,3 +12,5 @@ elif promedio_Luis >= 21 and promedio_Luis <= 40:
 elif promedio_Luis >= 41 and promedio_Luis <= 70:
   print('Tres')
 else: print('Cuatro')
+
+Aqui se genero un primer cambio 
