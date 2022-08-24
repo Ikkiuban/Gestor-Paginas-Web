@@ -1,0 +1,17 @@
+promedio_Hugo = int(entrada())
+
+promedio_Paco = (promedio_Hugo * 2) + 4
+promedio_Luis = (promedio_Hugo + promedio_Paco) / 2
+
+imprimir (promedio_Hugo, promedio_Paco, int(promedio_Luis))
+
+si promedio_Luis >= 0 y promedio_Luis <= 20:
+  imprimir('Uno')
+elif promedio_Luis >= 21 y promedio_Luis <= 40:
+  imprimir('Dos')
+elif promedio_Luis >= 41 y promedio_Luis <= 70:
+  imprimir('Tres')
+else: imprimir('Cuatro')
+
+Aqui se genero un primer cambio
+Aqui se esta modificando los condicionales
